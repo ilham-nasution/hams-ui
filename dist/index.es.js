@@ -1,6 +1,6 @@
-import r from"styled-components";const e=r.button`
+import r from"react";import o from"styled-components";const e=o.button`
   padding: 1rem 1.5rem;
   background-color: transparent;
   border-radius: 6px;
   border: 2px solid #006d77;
-`,o=()=>React.createElement(e,null,"Click Me");export{o as Button};
+`,t=()=>r.createElement(e,null,"Click Me");export{t as Button};
